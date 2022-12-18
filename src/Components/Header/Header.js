@@ -7,7 +7,7 @@ import PersonOutlineRoundedIcon from '@mui/icons-material/PersonOutlineRounded';
 import FavoriteBorderRoundedIcon from '@mui/icons-material/FavoriteBorderRounded';
 const Header = () => {
     return (
-        <div>
+        
             <Container>
                 <FlexBox justifyContent='space-between' sx={{
                     padding: '1rem 0',
@@ -41,7 +41,7 @@ const Header = () => {
                     </Stack>
                     </FlexBox>
             </Container> 
-        </div>
+        
     );
 };
 

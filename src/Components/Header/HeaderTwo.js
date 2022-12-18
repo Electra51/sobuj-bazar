@@ -182,11 +182,82 @@ export default function PrimarySearchAppBar() {
         anchor='left'
         open={isDrawerOpen}
         onClose={() => setIsDrawerOpen(false)}>
-        <Box p={2} width='250px' role='presentation' textAlign='center'>
-          <Typography variant='h6' component='div'>
-            Side Panel
-          </Typography>
-        </Box>
+            <Box p={2} width='250px' role='presentation' textAlign='center'>
+            <Box style={{
+                        display: 'flex',
+                        alignItems:'center'
+                    }}>
+                    <img src="https://i.ibb.co/GCBw69Z/Mask-group.png" alt="logo"
+                        style={{
+                            width:'50px'
+                            }} /> <i style={{
+                            fontWeight:'bold',
+                        }}>SOBJI BAZAR</i>
+              </Box>
+             <hr />
+              <Typography variant='h6' component='div' style={{
+            background:'#6B8E23'
+          }}>
+          All Category
+              </Typography>
+              <hr />
+              <Button variant="contained" style={{
+                width: '100%',
+                marginTop:'2%'
+              }}> Herb & Spice
+              </Button>
+              <Button variant="contained" style={{
+                width: '100%',
+                marginTop:'2%'
+              }}> Root Vegetables
+              </Button>
+              <Button variant="contained" style={{
+                width: '100%',
+                marginTop:'2%'
+              }}> Fruits
+              </Button>
+              <Button variant="contained" style={{
+                width: '100%',
+                marginTop:'2%'
+              }}> Leafy vegetable
+              </Button>
+              <Button variant="contained" style={{
+                width: '100%',
+                marginTop:'2%'
+              }}> Oil
+              </Button>
+              <Button variant="contained" style={{
+                width: '100%',
+                marginTop:'2%'
+              }}> Honey
+              </Button>
+              <Button variant="contained" style={{
+                width: '100%',
+                marginTop:'2%'
+              }}> Rice
+              </Button>
+              <Button variant="contained" style={{
+                width: '100%',
+                marginTop:'2%'
+              }}> Meat
+              </Button>
+              <Button variant="contained" style={{
+                width: '100%',
+                marginTop:'2%'
+              }}> Fish
+              </Button>
+              <Button variant="contained" style={{
+                width: '100%',
+                marginTop:'2%'
+              }}> Snacks & Instant
+              </Button>
+              <Button variant="contained" style={{
+                width: '100%',
+                marginTop:'2%'
+              }}> Drinks
+              </Button>
+            </Box>
+          
       </Drawer>
          
           <Search>
