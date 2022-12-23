@@ -36,8 +36,8 @@ const Header = () => {
                         </IconButton>
                         <Button variant="contained">
                             Become A Seller</Button>
-                        <Button variant="contained">
-                            <PersonOutlineRoundedIcon/> Sign In</Button>
+                        <Button variant="contained" startIcon={<PersonOutlineRoundedIcon/>}>
+                             Sign In</Button>
                     </Stack>
                     </FlexBox>
             </Container> 

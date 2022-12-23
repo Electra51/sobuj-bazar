@@ -8,7 +8,9 @@ function Item({item})
         width: '100%',
         display: 'grid',
             placeItems: 'center',
-        position:'relative'
+            position: 'relative',
+            borderRadius: '5%',
+        
        
     }}>
             <img src={item.img} alt="" style={{
