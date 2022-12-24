@@ -6,7 +6,8 @@ import ThumbUpOffAltSharpIcon from '@mui/icons-material/ThumbUpOffAltSharp';
 const AboutWriteInfo = () => {
     return (
         <Box sx={{
-            padding:'0 2%'
+            padding: '0 2%',
+            
         }}>
            
             <Typography variant='h4'
@@ -19,7 +20,7 @@ const AboutWriteInfo = () => {
 
             <Box>
             <br />
-                <Typography>Share us on</Typography>
+                <Typography>Share and follow us on</Typography>
 
                 <IconButton>
                     <FacebookRoundedIcon/>

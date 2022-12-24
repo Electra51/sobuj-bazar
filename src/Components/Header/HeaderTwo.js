@@ -125,7 +125,11 @@ export default function PrimarySearchAppBar() {
       <Button variant="contained" style={{
                 width: '100%',
                 marginTop:'2%'
-              }}> Home
+        }}><Link to='/' style={{
+          textDecoration: 'none',
+        color:'white'
+    }}>Home
+          </Link> 
               </Button>
       </MenuItem>
       <MenuItem>
@@ -133,7 +137,12 @@ export default function PrimarySearchAppBar() {
       <Button variant="contained" style={{
                 width: '100%',
                 marginTop:'2%'
-              }}> About Us
+        }}>
+          <Link to='/about' style={{
+                textDecoration: 'none',
+              color:'white'
+          }}>About Us
+          </Link> 
               </Button>
       </MenuItem>
       <MenuItem>
@@ -141,7 +150,12 @@ export default function PrimarySearchAppBar() {
        <Button variant="contained" style={{
                  width: '100%',
                  marginTop:'2%'
-               }}> Contact
+        }}>
+          <Link to='/contact' style={{
+                textDecoration: 'none',
+              color:'white'
+          }}>Contact
+          </Link>
                </Button>
        </MenuItem>
       <MenuItem onClick={handleProfileMenuOpen}>
@@ -161,7 +175,10 @@ export default function PrimarySearchAppBar() {
 
   return (
      
-          <Box sx={{ flexGrow: 1 }}>
+    <Box sx={{
+      flexGrow: 1,
+      position: 'sticky',
+    top:'0'}}>
       <AppBar position="static">
         <Toolbar>
                   <IconButton
@@ -275,11 +292,16 @@ export default function PrimarySearchAppBar() {
             
             <Button
             variant="h6"
-            noWrap
+          
             component="div"
             sx={{ display: { xs: 'none', sm: 'block' } }}
-          >
-            Home
+            >
+              <Link to='/' style={{
+                textDecoration: 'none',
+              color:'white'
+          }}>Home
+              </Link>
+            
           </Button>
             
            
@@ -287,7 +309,7 @@ export default function PrimarySearchAppBar() {
            
             <Button
             variant="h6"
-            noWrap
+            
             component="div"
             sx={{ display: { xs: 'none', sm: 'block' } }}
             > <Link to='/about' style={{
@@ -299,11 +321,16 @@ export default function PrimarySearchAppBar() {
            
           <Button
             variant="h6"
-            noWrap
+           
             component="div"
             sx={{ display: { xs: 'none', sm: 'block' } }}
-          >
-            Contact
+            >
+              <Link to='/contact' style={{
+                textDecoration: 'none',
+              color:'white'
+          }}> Contact
+              </Link>
+           
           </Button>
            
             <Button

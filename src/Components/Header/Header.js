@@ -5,6 +5,7 @@ import { Box, Button, IconButton, Stack } from '@mui/material';
 import { FlexBox } from '../Styled/FlexBox';
 import PersonOutlineRoundedIcon from '@mui/icons-material/PersonOutlineRounded';
 import FavoriteBorderRoundedIcon from '@mui/icons-material/FavoriteBorderRounded';
+import { Link } from 'react-router-dom';
 const Header = () => {
     return (
         
@@ -17,12 +18,15 @@ const Header = () => {
                         display: 'flex',
                         alignItems:'center'
                     }}>
+                    <Link to='/'>
                     <img src="https://i.ibb.co/GCBw69Z/Mask-group.png" alt="logo"
                         style={{
-                            width:'50px'
-                            }} /> <i style={{
-                            fontWeight:'bold',
+                            width:'40px'
+                            }} /></Link> <i style={{
+                            fontWeight: 'bold'
+                            
                         }}>SOBJI BAZAR</i>
+                    
                     </Box>
                 
                     <Stack direction='row' spacing={1} sx={{
@@ -34,9 +38,11 @@ const Header = () => {
                     <IconButton>
                         <ShoppingCartOutlinedIcon/>
                         </IconButton>
-                        <Button variant="contained">
-                            Become A Seller</Button>
-                        <Button variant="contained" startIcon={<PersonOutlineRoundedIcon/>}>
+                    <Button variant="contained" 
+                            size="small"
+                    >
+                            Become Seller</Button>
+                        <Button variant="contained" size="small" startIcon={<PersonOutlineRoundedIcon/>}>
                              Sign In</Button>
                     </Stack>
                     </FlexBox>

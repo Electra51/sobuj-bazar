@@ -15,7 +15,9 @@ const AboutHeader = () => {
         }}>
             <Box sx={{
                 backgroundColor: 'wheat',
-                opacity:'0.8',
+                opacity: '0.8',
+                paddingTop: '1%',
+              
             }}>
                 <Typography variant='h4' align='center'>
                     About Us
