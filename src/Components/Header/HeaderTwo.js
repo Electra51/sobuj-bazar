@@ -15,6 +15,8 @@ import MoreIcon from '@mui/icons-material/MoreVert';
 import { Button, Drawer } from '@mui/material'
 import { useState } from 'react'
 import { Link } from 'react-router-dom';
+import { useEffect } from 'react';
+import FoodCategoryList from './FoodCategoryList';
 
 
 const Search = styled('div')(({ theme }) => ({
@@ -122,40 +124,33 @@ export default function PrimarySearchAppBar() {
       onClose={handleMobileMenuClose}
     >
       <MenuItem>
-      <Button variant="contained" style={{
+      <Button to='/' component={Link} variant="contained" style={{
                 width: '100%',
-                marginTop:'2%'
-        }}><Link to='/' style={{
-          textDecoration: 'none',
-        color:'white'
-    }}>Home
-          </Link> 
+          marginTop: '2%',
+                textDecoration:'none'
+        }}> Home
+           
               </Button>
       </MenuItem>
       <MenuItem>
        
-      <Button variant="contained" style={{
+      <Button to='/about' component={Link} variant="contained" style={{
                 width: '100%',
-                marginTop:'2%'
+                marginTop:'2%',
+                
         }}>
-          <Link to='/about' style={{
-                textDecoration: 'none',
-              color:'white'
-          }}>About Us
-          </Link> 
+         About Us
+         
               </Button>
       </MenuItem>
       <MenuItem>
        
-       <Button variant="contained" style={{
+       <Button to='/contact' component={Link}  variant="contained" style={{
                  width: '100%',
                  marginTop:'2%'
         }}>
-          <Link to='/contact' style={{
-                textDecoration: 'none',
-              color:'white'
-          }}>Contact
-          </Link>
+          Contact
+          
                </Button>
        </MenuItem>
       <MenuItem onClick={handleProfileMenuOpen}>
@@ -173,12 +168,21 @@ export default function PrimarySearchAppBar() {
     </Menu>
   );
 
+  
+  const [foodCategory, setFoodCategory] = useState([]);
+  useEffect(() => {
+      fetch('http://localhost:5000/foodCategory')
+          .then(res => res.json())
+          .then(data => setFoodCategory(data))
+  }, []);
+
+
   return (
      
     <Box sx={{
       flexGrow: 1,
       position: 'sticky',
-    top:'0'}}>
+      top:'0'}}>
       <AppBar position="static">
         <Toolbar>
                   <IconButton
@@ -201,15 +205,18 @@ export default function PrimarySearchAppBar() {
         open={isDrawerOpen}
         onClose={() => setIsDrawerOpen(false)}>
             <Box p={2} width='250px' role='presentation' textAlign='center'>
-            <Box style={{
+            <Box to='/' component={Link} style={{
                         display: 'flex',
-                        alignItems:'center'
+                alignItems: 'center',
+                textDecoration: 'none',
+                color:'black'
                     }}>
                     <img src="https://i.ibb.co/GCBw69Z/Mask-group.png" alt="logo"
                         style={{
                             width:'50px'
                             }} /> <i style={{
-                            fontWeight:'bold',
+                  fontWeight: 'bold',
+                              
                         }}>SOBJI BAZAR</i>
               </Box>
              <hr />
@@ -219,61 +226,15 @@ export default function PrimarySearchAppBar() {
           All Category
               </Typography>
               <hr />
-              <Button variant="contained" style={{
-                width: '100%',
-                marginTop:'2%'
-              }}> Herb & Spice
-              </Button>
-              <Button variant="contained" style={{
-                width: '100%',
-                marginTop:'2%'
-              }}> Root Vegetables
-              </Button>
-              <Button variant="contained" style={{
-                width: '100%',
-                marginTop:'2%'
-              }}> Fruits
-              </Button>
-              <Button variant="contained" style={{
-                width: '100%',
-                marginTop:'2%'
-              }}> Leafy vegetable
-              </Button>
-              <Button variant="contained" style={{
-                width: '100%',
-                marginTop:'2%'
-              }}> Oil
-              </Button>
-              <Button variant="contained" style={{
-                width: '100%',
-                marginTop:'2%'
-              }}> Honey
-              </Button>
-              <Button variant="contained" style={{
-                width: '100%',
-                marginTop:'2%'
-              }}> Rice
-              </Button>
-              <Button variant="contained" style={{
-                width: '100%',
-                marginTop:'2%'
-              }}> Meat
-              </Button>
-              <Button variant="contained" style={{
-                width: '100%',
-                marginTop:'2%'
-              }}> Fish
-              </Button>
-              <Button variant="contained" style={{
-                width: '100%',
-                marginTop:'2%'
-              }}> Snacks & Instant
-              </Button>
-              <Button variant="contained" style={{
-                width: '100%',
-                marginTop:'2%'
-              }}> Drinks
-              </Button>
+              {
+                foodCategory.map(foodCat =>
+                  <FoodCategoryList
+                    key={foodCat._id}
+                    foodCat={foodCat}
+                  ></FoodCategoryList>)
+              }
+             
+             
             </Box>
           
       </Drawer>
@@ -290,17 +251,14 @@ export default function PrimarySearchAppBar() {
           <Box sx={{ flexGrow: 1 }} />
           <Box sx={{ display: { xs: 'none', md: 'flex' } }}>
             
-            <Button
+            <Button to='/' component={Link}
             variant="h6"
           
-            component="div"
+           
             sx={{ display: { xs: 'none', sm: 'block' } }}
             >
-              <Link to='/' style={{
-                textDecoration: 'none',
-              color:'white'
-          }}>Home
-              </Link>
+            Home
+              
             
           </Button>
             
@@ -309,27 +267,21 @@ export default function PrimarySearchAppBar() {
            
             <Button
             variant="h6"
+            to='/about' component={Link}
             
-            component="div"
             sx={{ display: { xs: 'none', sm: 'block' } }}
-            > <Link to='/about' style={{
-                textDecoration: 'none',
-              color:'white'
-          }}>
-            About Us </Link>
+            > 
+            About Us 
               </Button>
            
           <Button
             variant="h6"
-           
-            component="div"
+            to='/contact' component={Link}
+            
             sx={{ display: { xs: 'none', sm: 'block' } }}
             >
-              <Link to='/contact' style={{
-                textDecoration: 'none',
-              color:'white'
-          }}> Contact
-              </Link>
+               Contact
+              
            
           </Button>
            

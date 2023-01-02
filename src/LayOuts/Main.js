@@ -1,3 +1,4 @@
+import { Stack } from '@mui/material';
 import React from 'react';
 import { Outlet } from 'react-router-dom';
 import Footer from '../Components/Footer/Footer';
@@ -7,15 +8,17 @@ import HeaderTwo from '../Components/Header/HeaderTwo';
 
 const Main = () => {
     return (
-        <div>
+        <Stack>
             <Header></Header>
            
             <HeaderTwo></HeaderTwo>
             
+            <Stack spacing={10}>
             <Outlet></Outlet>
             <Footer></Footer>
+            </Stack>
             
-        </div>
+        </Stack>
     );
 };
 

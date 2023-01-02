@@ -3,27 +3,30 @@ import React from 'react';
 import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 import { Box, Button, IconButton, Stack } from '@mui/material';
 import { FlexBox } from '../Styled/FlexBox';
-import PersonOutlineRoundedIcon from '@mui/icons-material/PersonOutlineRounded';
 import FavoriteBorderRoundedIcon from '@mui/icons-material/FavoriteBorderRounded';
 import { Link } from 'react-router-dom';
 const Header = () => {
     return (
         
+        <Box>
             <Container>
                 <FlexBox justifyContent='space-between' sx={{
                     padding: '1rem 0',
                    
                 }}>
-                    <Box style={{
+                    <Box to='/' component={Link} style={{
                         display: 'flex',
-                        alignItems:'center'
+                        alignItems: 'center',
+                        textDecoration:'none'
+                    
                     }}>
-                    <Link to='/'>
+                    
                     <img src="https://i.ibb.co/GCBw69Z/Mask-group.png" alt="logo"
                         style={{
                             width:'40px'
-                            }} /></Link> <i style={{
-                            fontWeight: 'bold'
+                            }} /><i style={{
+                            fontWeight: 'bold',
+                            color:'black'
                             
                         }}>SOBJI BAZAR</i>
                     
@@ -42,11 +45,12 @@ const Header = () => {
                             size="small"
                     >
                             Become Seller</Button>
-                        <Button variant="contained" size="small" startIcon={<PersonOutlineRoundedIcon/>}>
+                        <Button variant="contained" size="small" >
                              Sign In</Button>
                     </Stack>
                     </FlexBox>
             </Container> 
+            </Box>
         
     );
 };

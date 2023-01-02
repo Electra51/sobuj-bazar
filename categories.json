@@ -1,0 +1,327 @@
+[
+    {
+        "category":"Vegetables",
+        "title":"Green Cabbage",
+        "weight":"each",
+        "price":"60.00",
+        "detail":"Green cabbage is a leafy green vegetable that grows in tight, spherical heads, which gives it its nickname of cannonball cabbage. It's a cruciferous vegetable, which means that it's a member of the botanical family Brassicaceae, along with broccoli, cauliflower, Brussels sprouts, and kale.All forms of cabbage have succulent leaves that are free of hairs and covered with a waxy coating, which often gives the leaf surface a gray-green or blue-green colour. The plants grow best in mild to cool climates and tolerate frost; some forms tolerate hard freezing at certain periods of growth.",
+        "defaultImage":"https://i.ibb.co/p2mck28/green-cabbage2-removebg-preview.png",
+        "images":[
+            "https://i.ibb.co/p2mck28/green-cabbage2-removebg-preview.png",
+            "https://i.ibb.co/mH1pB3V/green-cabbage4-removebg-preview.png"
+        ]
+    },
+    {
+        "category":"Vegetables",
+        "title":"Carrot",
+        "weight":"150gm",
+        "price":"30.00",
+        "detail":"Carrots are firm and crisp. The skin is mostly smooth, but it may have wrinkles that go from side to side. Carrots grow where the temperature is cool to warm. They grow best in soil that is loose.They're rich in beta-carotene, a compound your body changes into vitamin A, which helps keep your eyes healthy. And beta-carotene helps protect your eyes from the sun and lowers your chances of cataracts and other eye problems. Yellow carrots have lutein, which is also good for your eyes.",
+        "defaultImage":"https://i.ibb.co/QFRyQFg/carrot1-removebg-preview.png",
+        "images":[
+            "https://i.ibb.co/93j0SxP/carrot4-removebg-preview.png",
+            "https://i.ibb.co/rbvz3cF/carrot3-removebg-preview.png"
+        ]
+    },
+    {
+        "category":"Vegetables",
+        "title":"Potato",
+        "weight":"1kg",
+        "price":"12.00",
+        "detail":"Potatoes were a life-saving food source in early times because the vitamin C prevented scurvy. Another major nutrient in potatoes is potassium, an electrolyte which aids in the workings of our heart, muscles, and nervous system. Potato skin contains fiber, which is important for digestive health.Potato skin contains B vitamins, vitamin C, iron, calcium, potassium and other nutrients. Potato skin also provides lots of fiber, about 2 grams per ounce. If you eat a medium baked potato, including the skin, you'll get nearly 4 grams of fiber, 2 milligrams of iron and 926 grams of potassium.",
+        "defaultImage":"https://i.ibb.co/JBddTfS/alu1-removebg-preview.png",
+        "images":[
+            "https://i.ibb.co/VW4mQSY/alu3-removebg-preview.png",
+            "https://i.ibb.co/L10VXKG/alu2-removebg-preview.png"
+        ]
+    },
+    {
+        "category":"Vegetables",
+        "title":"Broccoli",
+        "weight":"each",
+        "price":"80.00",
+        "detail":"Broccoli is a nutrient-rich vegetable that may enhance your health in a variety of ways, such as by reducing inflammation, improving blood sugar control, boosting immunity and promoting heart health.According to the Mayo Clinic, it helps to normalize bowel movements, lower cholesterol levels, control blood sugar, maintain bowel health and aid in achieving a healthy weight.",
+        "defaultImage":"https://i.ibb.co/hghjsZN/broccoli2-removebg-preview.png",
+        "images":[
+            "https://i.ibb.co/sKj9X1G/broccoli-removebg-preview.png",
+            "https://i.ibb.co/BnrRJY6/broccoli1-removebg-preview.png"
+            
+        ]
+    },
+    {
+        "category":"Vegetables",
+        "title":"Red Spinach",
+        "weight":"1kg",
+        "price":"20.00",
+        "detail":"Red Spinach is a type of leafy vegetable with a scientific name of Amaranth Dubius. It belongs to the family of Amaranthus Genus and is recognized by the deep reddish coloured leaves. The stalks are also red in colour, unlike the slender Amaranthus, which are green. Red Spinach is not related to green spinach, but get their name due to the resemblance in their appearances.",
+        "defaultImage":"https://i.ibb.co/KVbP2Rd/lalshak1-removebg-preview.png",
+        "images":[
+            "https://i.ibb.co/SwpzpwL/lalshak2-removebg-preview.png",
+            "https://i.ibb.co/KVbP2Rd/lalshak1-removebg-preview.png"
+        ]
+    },
+    {
+        "category":"Vegetables",
+        "title":"Lettuce",
+        "weight":"30gm",
+        "price":"50.00",
+        "detail":"Lettuce is a source of vitamin A, which plays a role in eye health. Vitamin A can reduce a person's risk of cataracts. Vitamin A also helps prevent macular degeneration. Extracts of multiple lettuce types have also been shown to promote sleep.",
+        "defaultImage":"https://i.ibb.co/WPmwYgP/letus1-removebg-preview.png",
+        "images":[
+            "https://i.ibb.co/R2V6tkb/letus-removebg-preview.png",
+            "https://i.ibb.co/nfDqMkV/letus2-removebg-preview.png"
+        ]
+    },
+    {
+        "category":"Vegetables",
+        "title":"Red Cabbage",
+        "weight":"each",
+        "price":"70.00",
+        "detail":"Red cabbage is a good source of vitamin K and provides small amounts of calcium, magnesium, and zinc, which can help build and maintain healthy bones. Red cabbage is high in fiber, making it easier to digest foods and keep your digestive system healthy.",
+        "defaultImage":"https://i.ibb.co/wzzxwqV/red-cabbage2-removebg-preview.png",
+        "images":[
+            "https://i.ibb.co/SdCsSXY/red-cabbage3-removebg-preview.png",
+            "https://i.ibb.co/Mpn7T9n/red-cabbage4-removebg-preview.png"
+        ]
+    },
+    {
+        "category":"Vegetables",
+        "title":"Cucumber",
+        "weight":"50gm",
+        "price":"25.00",
+        "detail":"All that water in cucumbers can help keep you hydrated. Plus, the fiber boost they give you helps you stay regular and avoid constipation. The vitamin K helps blood clot and keep your bones healthy. Vitamin A has many jobs, like helping with vision, the immune system, and reproduction.They are low in calories but contain many important vitamins and minerals, as well as a high water content. Eating cucumbers may lead to many potential health benefits, including weight loss, balanced hydration, digestive regularity and lower blood sugar levels.",
+        "defaultImage":"https://i.ibb.co/QmJFWdB/sosha1-removebg-preview.png",
+        "images":[
+            "https://i.ibb.co/MZnTmzM/sosha2-removebg-preview.png",
+            "https://i.ibb.co/S55vczR/shosha3-removebg-preview.png"
+        ]
+    },
+    {
+        "category":"Vegetables",
+        "title":"Pumpkin",
+        "weight":"each",
+        "price":"45.00",
+        "detail":"Pumpkin seeds are rich in vitamins and minerals like manganese and vitamin K, both of which are important in helping wounds heal. They also contain zinc, a mineral that helps the immune system fight bacteria and viruses. Pumpkin seeds are also an excellent source of: Phosphorus.",
+        "defaultImage":"https://i.ibb.co/n7fHkFC/pumpkin2-removebg-preview.png",
+        "images":[
+            "https://i.ibb.co/RN6n68c/pumkin-3-removebg-preview.png",
+            "https://i.ibb.co/SKn53wp/pumkin1-removebg-preview.png"
+        ]
+    },
+    {
+        "category":"Fruits",
+        "title":"Grapes",
+        "weight":"50gm",
+        "price":"14.00",
+        "detail":"One fruit that is in season these days is angur or grapes! Sweet and super refreshing, grapes are also incredibly healthy. This fruit is packed with vitamins C and K, calcium, iron, potassium, magnesium and antioxidants such as resveratrol and beta carotene—all of which can help prevent chronic diseases",
+        "defaultImage":"https://i.ibb.co/n17yyR9/angur3-removebg-preview.png",
+        "images":[
+            "https://i.ibb.co/hWfWvGV/angur4-removebg-preview.png",
+            "https://i.ibb.co/N9dZqhh/angur-removebg-preview.png"
+        ]
+    },
+    {
+        "category":"Fruits",
+        "title":"Apple",
+        "weight":"1kg",
+        "price":"12.00",
+        "detail":"Apples are an incredibly nutritious fruit that offers multiple health benefits. They're rich in fiber and antioxidants. Eating them is linked to a lower risk of many chronic conditions, including diabetes, heart disease, and cancer. Apples may also promote weight loss and improve gut and brain health.",
+        "defaultImage":"https://i.ibb.co/K9L1ptQ/apple2-removebg-preview.png",
+        "images":[
+            "https://i.ibb.co/MMZbcqx/apple1-removebg-preview.png",
+            "https://i.ibb.co/5YKsryL/apple3-removebg-preview.png"
+        ]
+    },
+    {
+        "category":"Fruits",
+        "title":"Guava",
+        "weight":"1kg",
+        "price":"60.00",
+        "detail":"The fruit is commonly eaten fresh or made into beverages, jams, and other foods. Various parts of the plant, including the leaf and the fruit, are used as medicine. People use guava leaf for stomach and intestinal conditions, pain, diabetes, and wound healing. The fruit is used for high blood pressure",
+        "defaultImage":"https://i.ibb.co/B4D36Gk/peyara-removebg-preview.png",
+        "images":[
+            "https://i.ibb.co/4FJR4PP/peyara3-removebg-preview.png",
+            "https://i.ibb.co/k2zQDmN/peyara2-removebg-preview.png"
+        ]
+    },
+    {
+        "category":"Fruits",
+        "title":"Orange",
+        "weight":"1kg",
+        "price":"13.00",
+        "detail":"As mentioned previously, it's never wise to consume anything in excess - especially a citrus-y fruit laden with vitamin C that's heavy on the stomach. If you're eating too many oranges every day, you might experience side-effects like diarrhoea, vomiting, nausea, heartburn, bloating, cramps, and insomnia.",
+        "defaultImage":"https://i.ibb.co/dkQjPvT/images-26-removebg-preview.png",
+        "images":[
+            "https://i.ibb.co/yQJFMqh/orange1-removebg-preview.png",
+            "https://i.ibb.co/99Qsvfh/orange4-removebg-preview.png"
+        ]
+    },
+    {
+        "category":"Fruits",
+        "title":"Dates",
+        "weight":"76gm",
+        "price":"16.00",
+        "detail":"Dates or khajoor are high in fibre, a rich source of iron to help boost your haemoglobin levels and an instant energy booster. Eating dates is also said to reduce high cholesterol levels and high blood pressure",
+        "defaultImage":"https://i.ibb.co/HF3wxZ2/khejur4-removebg-preview.png",
+        "images":[
+            "https://i.ibb.co/6ZSdLnt/khejur3-removebg-preview.png",
+            "https://i.ibb.co/yYLTzzB/khejur2-removebg-preview.png"
+        ]
+    },
+    {
+        "category":"Fruits",
+        "title":"Banana",
+        "weight":"1hali",
+        "price":"12.00",
+        "detail":"The bottom line. Bananas are a popular fruit with many potential health benefits. They may boost your digestion and heart health thanks to their fiber and antioxidant contents. Plus, they may support weight loss because they're relatively low in calories, nutrient dense, and filling.",
+        "defaultImage":"https://i.ibb.co/DzyHz2J/kola2-removebg-preview.png",
+        "images":[
+            "https://i.ibb.co/yPygRn8/kola-removebg-preview.png",
+            "https://i.ibb.co/9W4p1VL/kola1-removebg-preview.png"
+        ]
+    },
+    {
+        "category":"Fruits",
+        "title":"Lemon",
+        "weight":"1hali",
+        "price":"25.00",
+        "detail":"The soluble dietary fiber in lemon aids in healthy digestion. Lemons contain about 50 mg of Vitamin C, which is over half the amount of Vitamin C needed in your daily diet. Along with boosting immunity, this burst of Vitamin C can reduce your risk of stroke and heart disease with regular consumption.",
+        "defaultImage":"https://i.ibb.co/RbSC6vc/lebu4-removebg-preview.png",
+        "images":[
+            "https://i.ibb.co/f1JYhBK/lebu2-removebg-preview.png",
+            "https://i.ibb.co/g7mD7r3/lebu1-removebg-preview.png"
+        ]
+    },
+    {
+        "category":"Honey",
+        "title":"Alfalfa Honey",
+        "weight":"500gm",
+        "price":"13.00",
+        "detail":"It boasts a probiotic action, antiseptic and antibacterial properties, anti-acne benefits, helps maintain normal blood sugar levels, manage hypoglycemia and is a great natural remedy for skin problems, cough and sore throat.",
+        "defaultImage":"https://i.ibb.co/94pPqSf/honey1-afala-removebg-preview.png",
+        "images":[
+            "https://i.ibb.co/8dD54qS/images-5-removebg-preview.png",
+            "https://i.ibb.co/94pPqSf/honey1-afala-removebg-preview.png"
+        ]
+    },
+    {
+        "category":"Honey",
+        "title":"Buckwheat",
+        "weight":"300gm",
+        "price":"14.00",
+        "detail":"The primary benefits of buckwheat honey are that it promotes healing in the body, supports immune function, and boosts antioxidants. It's also great for soothing sore throats and coughs. Some people even use honey as a part of their skin care regimen.",
+        "defaultImage":"https://i.ibb.co/nzJ6X0K/buckwheate-honey-removebg-preview.png",
+        "images":[
+            "https://i.ibb.co/grg7dzQ/download-22-removebg-preview.png",
+            "https://i.ibb.co/JQqzcBM/download-23-removebg-preview.png"
+        ]
+    },
+    {
+        "category":"Oil",
+        "title":"Fresh Cooking Oil",
+        "weight":"5li",
+        "price":"56.00",
+        "detail":"Cooking oil is plant, animal, or synthetic liquid fat used in frying, baking, and other types of cooking. It is also used in food preparation and flavoring not involving heat, such as salad dressings and bread dips, and may be called edible oil.",
+        "defaultImage":"https://i.ibb.co/mt1WGRB/download-16-removebg-preview.png",
+        "images":[
+            "https://i.ibb.co/Zm8wL4D/download-13-removebg-preview.png",
+            "https://i.ibb.co/Ph0V1V4/download-14-removebg-preview.png"
+        ]
+    },
+    {
+        "category":"Oil",
+        "title":"Mustard oil",
+        "weight":"1kg",
+        "price":"11.00",
+        "detail":"Pure mustard oil and mustard essential oil may help reduce inflammation and pain, slow cancer cell growth, block microbial growth, and enhance hair and skin health. Both can also be diluted with a carrier oil and applied topically in massage oils, face masks, and hair treatments.",
+        "defaultImage":"https://i.ibb.co/9WkVwqL/download-18-removebg-preview.png",
+        "images":[
+            "https://i.ibb.co/M54jYPP/download-19-removebg-preview.png",
+            "https://i.ibb.co/pyT7rTq/download-17-removebg-preview.png"
+        ]
+    },
+    {
+        "category":"Rice",
+        "title":"Basmati Rice",
+        "weight":"1kg",
+        "price":"31.00",
+        "detail":"Obesity, metabolic syndrome (including heart disease, stroke and type 2 diabetes) are also associated with high consumption of white rice. That's because white rice contains more carbs and less fiber than brown rice. Therefore, should choose to eat Basmati brown rice to ensure a better health.",
+        "defaultImage":"https://i.ibb.co/MVPDZB4/download-24-removebg-preview.png",
+        "images":[
+            "https://i.ibb.co/9vKpTq9/download-25-removebg-preview.png",
+            "https://i.ibb.co/mz4fcYP/download-26-removebg-preview.png"
+        ]
+    },
+    {
+        "category":"Rice",
+        "title":"Jasmine Rice",
+        "weight":"1kg",
+        "price":"42.00",
+        "detail":"Steamed jasmine rice is ideal for eating with stir fries, with grilled, fried, or braised food items, and in soups (when cooked slightly drier by adding a little less water during cooking).",
+        "defaultImage":"https://i.ibb.co/y4cXs4H/download-29-removebg-preview.png",
+        "images":[
+            "https://i.ibb.co/bbshxBw/jasmin-removebg-preview.png",
+            "https://i.ibb.co/GQJkJ02/jasmin2-removebg-preview.png"
+        ]
+    },
+    {
+        "category":"Fish & Meat",
+        "title":"Beef",
+        "weight":"1kg",
+        "price":"71.00",
+        "detail":"There are plenty of benefits to eating beef. It tastes great and is a versatile choice in the kitchen - but not everyone realises just how important it is for a healthy, balanced diet. Take a look at the list below for six reasons why beef should stay on the shopping list.",
+        "defaultImage":"https://i.ibb.co/McZN2NP/beef-removebg-preview.png",
+        "images":[
+            "https://i.ibb.co/Y7Kj5Qq/beef3-removebg-preview.png",
+            "https://i.ibb.co/pjWNmv4/beef-1kg-removebg-preview.png"
+        ]
+    },
+    {
+        "category":"Fish & Meat",
+        "title":"Hilsha Fish",
+        "weight":"1kg",
+        "price":"56.00",
+        "detail":"Hilsa Fish, popularly known as Ilisha is rich in good quality fatty acids and Omega-3 that prevent coronary heart diseases in humans. Hilsa fish is one of the few fishes that is quite famous for its incredibly soft meat.",
+        "defaultImage":"https://i.ibb.co/D4CsKTX/ilis2-removebg-preview.png",
+        "images":[
+            "https://i.ibb.co/WkHRptY/ilis-removebg-preview.png",
+            "https://i.ibb.co/hf7xFfR/ilish-removebg-preview.png"
+        ]
+    },
+    {
+        "category":"Fish & Meat",
+        "title":"Chicken",
+        "weight":"1kg",
+        "price":"29.00",
+        "detail":"A food rich in protein, chicken can help with weight management and reduce the risk of heart disease. Chicken contains the amino acid tryptophan, which has been linked to higher levels of serotonin (the “feel good” hormone) in our brains.",
+        "defaultImage":"https://i.ibb.co/CbhGYz0/images-removebg-preview.png",
+        "images":[
+            "https://i.ibb.co/BcybNsK/images-1-removebg-preview.png",
+            "https://i.ibb.co/mXmNVpW/images-2-removebg-preview.png"
+        ]
+    },
+    {
+        "category":"Fish & Meat",
+        "title":"Prawn Fish",
+        "weight":"1kg",
+        "price":"67.00",
+        "detail":"Prawns are a great source of Vitamins B-6, B-12 and Niacin, which help the body produce energy, build muscle and replenish red blood cells. Prawns contain significant amounts of iron, a mineral that is essential for the body to effectively distribute oxygen.",
+        "defaultImage":"https://i.ibb.co/YDp0x06/chingri-removebg-preview.png",
+        "images":[
+            "https://i.ibb.co/wCVyp5j/chingri3-removebg-preview.png",
+            "https://i.ibb.co/VL4d6QG/chingri2-removebg-preview.png"
+        ]
+    },
+    {
+        "category":"Fish & Meat",
+        "title":"Mutton",
+        "weight":"1kg",
+        "price":"72.00",
+        "detail":"It is the most nutrient-dense non-vegetarian food available, being high in protein, vitamins, and minerals. Mutton is a better option than other varieties of red meat for your dinner table because of its low amount of cholesterol and saturated fatty acids.",
+        "defaultImage":"https://i.ibb.co/VMY49N1/mtton-1-kg-removebg-preview.png",
+        "images":[
+            "https://i.ibb.co/rcxFzGw/mtton2-removebg-preview.png",
+            "https://i.ibb.co/vjhgR4P/mtton3-removebg-preview.png"
+        ]
+    }
+]

@@ -14,14 +14,14 @@ export default function SecondSection() {
     return (
         <Container >
             
-                <Card sx={{ maxWidth: '100%', background:'#BBBD61',padding:'0 3%' }}>
+                <Card sx={{ maxWidth: '100%', background:'#6B8E23',padding:'0 3%' }}>
                 <FlexBox justifyContent='space-between'>
                 <CardContent>
                   <Typography sx={{ fontSize: 24, }} gutterBottom>
                     100% Natural Product Here
                   </Typography>
                   <Typography variant="body2">
-                  See Our latest discounted products from here and get a specialdiscount product
+                  See Our latest discounted products from here and get a special discount product
                     
                   </Typography>
                 </CardContent>
